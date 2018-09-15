@@ -8,8 +8,8 @@ This is a "bare minimum" repo that shows one way to configure TypeScript Project
 > git clone https://github.com/RyanCavanaugh/learn-a.git
 > cd learn-a
 > npm install
-> lerna bootstrap
-> tsc -b packages
+> npx lerna bootstrap
+> npx tsc -b packages
 ```
 
 Note that you'll need a 3.0 version of `tsc` (currently available at `npm install -g typescript@next`).
