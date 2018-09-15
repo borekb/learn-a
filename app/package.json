@@ -1,0 +1,13 @@
+{
+  "name": "@demo/app",
+  "version": "1.0.0",
+  "private": true,
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "devDependencies": {
+    "typescript": "^3.0.3"
+  },
+  "dependencies": {
+    "@demo/lib": "file:../lib"
+  }
+}

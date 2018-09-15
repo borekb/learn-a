@@ -1,6 +1,7 @@
 {
   "packages": [
-    "packages/*"
+    "./app",
+    "./lib"
   ],
-  "version": "3.0.2"
+  "version": "1.0.0"
 }
